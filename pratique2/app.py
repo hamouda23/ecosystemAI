@@ -102,7 +102,7 @@ def list_numeric_columns(df: pd.DataFrame) -> List[str]:
 def main() -> None:
     """Streamlit app: upload CSV, show table, select numeric column and plot."""
     st.set_page_config(page_title="CSV Explorer", layout="wide")
-    st.title("CSV Explorer — Upload, aperçu et graphique")
+    st.title("Application De visualisation de données CSV ")
 
     st.sidebar.header("Options")
     show_head = st.sidebar.checkbox("Afficher les premières lignes (head)", value=True)
